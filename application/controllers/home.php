@@ -38,19 +38,16 @@ class home extends CI_Controller {
 		$this->load->view('myJqueryTest', $data);
 	}
 
-	public function string_example() {
-
+	public function string_example() 
+	{
 		/* 
 			 Retrieve data from views and perform checks in controller
 			 Validate input and nulls
 			 Use a foreach loop to individually parse string as an array of characters
 			 Write code to reverse the string of characters
 		*/
-
 		$data['title'] = 'Fun Strings!';
 		$this->load->view('view_search', $data);
-
-
 	}
 
 }
